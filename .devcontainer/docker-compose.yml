@@ -23,9 +23,9 @@ services:
       - postgres-data:/var/lib/postgresql/data
     hostname: postgres
     environment:
-      POSTGRES_DB: my_media
-      POSTGRES_USER: example
-      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: servicios_db
+      POSTGRES_USER: servicios_usuarios
+      POSTGRES_PASSWORD: base_datos_pass
       POSTGRES_HOST_AUTH_METHOD: trust
     ports:
       - 5432:5432
