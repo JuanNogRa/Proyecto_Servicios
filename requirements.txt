@@ -1,0 +1,8 @@
+Django=5.0
+qrcode
+reportlab
+six
+django-crispy-forms
+psycopg2-binary
+matplotlib
+pandas
